@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument("--rerun",
                         action="store_true",
                         dest="rerun_dimension",
-                        help="Checks for failed run_times and reruns them for gdm")
+                        help="Checks for failed run_times and reruns them")
 
     return vars(parser.parse_args())
 
