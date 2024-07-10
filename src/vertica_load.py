@@ -7,7 +7,11 @@ import optparse
 import time
 import logging
 import smtplib
+<<<<<<< HEAD
 import saf_utils as saf
+=======
+import dim_utils as saf
+>>>>>>> 9376cfc (Update readme)
 import run_log_writer
 from datetime import datetime
 from datetime import timedelta
